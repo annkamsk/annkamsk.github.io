@@ -13,12 +13,16 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div>Hi, my name is</div>
-        <div class=anna>Anna Kramarska</div>
-        <div class=swe>I'm a software engineer</div>
-        {{ content }}
+        <div class="section">
+          <div>Hi, my name is</div>
+          <div class=anna>Anna Kramarska</div>
+          <div class=swe>I'm a software engineer</div>
+          {{ content }}
+        </div>
+        
         {%- include aboutme.html -%}
         {%- include exp.html -%}
+        {%- include education.html -%}
       </div>
       
     </main>
@@ -28,6 +32,7 @@
       {%- include social.html -%}
     </div>
 
+    <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
 
 </html>

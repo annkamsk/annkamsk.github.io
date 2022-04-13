@@ -1,28 +1,26 @@
-<div>
+<div class="section">
     <div class="section-header">
         <h2>Where I've worked</h2>
     </div>
-    <div class="exp-container">
-        <div class="exp-companies">
-            <ul>
-                <li>QED.ai</li>
-                <li>Google</li>
-                <li>Zumtobel</li>
-                <li>po8klasie.pl</li>
-            </ul>
+    <div class="section-container">
+        <div class="section-column-1">
+            <div id="exp-companies-list">
+                {% for company in page.companies %}
+                <div id="comp-name-{{ company.name }}" class="comp-name">
+                    {{ company.name }}
+                </div>
+                {% endfor %}
+            </div>
         </div>
         
-        <div class="exp-companies-desc">
-            <ul>
-                <li>
-                    <p id="exp-qed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                </li>
-                <li>
-                    <p id="exp-google">Blabla</p>
-                </li>
-            </ul>
+        <div class="section-column-2">
+            <div id="exp-companies-desc-list">
+                {% for company in page.companies %}
+                <div id="{{ company.name }}" class="comp-desc">
+                    {{ company.desc }}
+                </div>
+                {% endfor %}
+            </div>
             
             
         </div>

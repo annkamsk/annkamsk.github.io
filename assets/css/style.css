@@ -79,9 +79,24 @@ body {
   color: #3d518c;
 }
 
+.section {
+  min-height: 30em;
+}
+
 .section-header h2 {
   text-transform: uppercase;
   color: #7692ff;
+}
+.section-container {
+  display: flex;
+  width: 100%;
+}
+.section-column-1 {
+  padding-left: 0.5em;
+  width: 30%;
+}
+.section-column-2 {
+  width: 70%;
 }
 
 /* About me */
@@ -97,31 +112,31 @@ body {
 }
 
 /* Experience */
-.exp-container {
-  display: flex;
-  gap: 2em;
-  width: 100%;
-  align-content: flex-start;
+
+.comp-name {
+  padding-bottom: 0.5em;
+  cursor: pointer;
 }
-.exp-companies ul {
-  list-style-type: none;
+.comp-name[chosen=true] {
+  color: #9babe9;
+  text-decoration: underline;
 }
-.exp-companies li {
-  width: 100%;
-  padding: 0.5em;
-  margin: 0.2em;
+.comp-name :hover {
+  color: #9babe9;
 }
-.exp-companies li:hover {
-  color: #77b8f9;
+#exp-companies-desc-list {
+  min-height: 10em;
 }
-.exp-companies-desc ul {
-  list-style-type: none;
-}
-.exp-companies-desc li {
+.comp-desc {
   display: none;
 }
-.exp-companies-desc li:first-child {
+.comp-desc[chosen=true] {
   display: block;
+}
+
+/* Education */
+.uni-name {
+  font-weight: bold;
 }
 
 /** Set `margin-bottom` to maintain vertical rhythm */

@@ -1,0 +1,15 @@
+<div class="section">
+    <div class="section-header">
+        <h2>Where I've studied</h2>
+    </div>
+    {% for uni in page.unis %}
+    <div class="section-container">
+        <div id="uni-name-{{ uni.name }}" class="section-column-1">
+            <p class="uni-name">{{ uni.name }}</p>
+        </div> 
+        <div id="uni-desc-{{ uni.name }}" class="section-column-2">
+            {{ uni. desc }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
