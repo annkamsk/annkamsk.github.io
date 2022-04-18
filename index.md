@@ -6,10 +6,12 @@ companies:
     - name: Google
       desc: Blabla
 unis:
-    - name: KU Leuven
-      desc: Bioinformatics
-    - name: University of Warsaw
-      desc: Computer Science
+    - name: KU Leuven, Belgium
+      desc: Bioinformatics M.Sc.
+      year: 2021–2023
+    - name: University of Warsaw, Poland
+      desc: Computer Science B.Sc.
+      year: 2016–2021
 ---
 
 I specialize in back-end development, but over the years, I've had experience with quite a few programming fields. My main goal is to do stuff that are <ins>actually useful</ins> and <ins>good for the world</ins>.

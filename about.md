@@ -1,18 +1,13 @@
----
-layout: page
-title: About
-permalink: /about/
----
+Hej! My name is Anna and I'm a software engineer. I enjoy solving complex computational problems and designing software systems.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My main focus these days is building data systems at [QED.ai](https://qed.ai) and studying Bioinformatics at KU Leuven.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Here are a few technologies I’ve been working with recently:
+- python
+- Django
+- SQL (Postgres)
+- Linux
+- Typescript
+- R 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I'm also a huge singing nerd and a musical theatre kid (yes, you can find my artistic alter ego online ;)) 

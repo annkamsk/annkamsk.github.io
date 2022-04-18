@@ -13,13 +13,7 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="section">
-          <div>Hi, my name is</div>
-          <div class=anna>Anna Kramarska</div>
-          <div class=swe>I'm a software engineer</div>
-          {{ content }}
-        </div>
-        
+        {%- include intro.html -%}
         {%- include aboutme.html -%}
         {%- include exp.html -%}
         {%- include education.html -%}

@@ -1,10 +1,11 @@
 <div class="section">
     <div class="section-header">
-        <h2>Where I've worked</h2>
+        <h2 id="experience">Where I've worked</h2>
     </div>
     <div class="section-container">
         <div class="section-column-1">
-            <div id="exp-companies-list">
+            <div id="exp-companies-list" class="exp-companies-list">
+                
                 {% for company in page.companies %}
                 <div id="comp-name-{{ company.name }}" class="comp-name">
                     {{ company.name }}
