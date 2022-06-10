@@ -11,3 +11,5 @@ Here are a few technologies I’ve been working with recently:
 - R 
 
 I'm also a huge singing nerd and a musical theatre kid (yes, you can find my artistic alter ego online ;)) 
+
+I'm based in Europe.
