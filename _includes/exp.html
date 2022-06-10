@@ -18,7 +18,7 @@
             <div id="exp-companies-desc-list">
                 {% for company in page.companies %}
                 <div id="{{ company.name }}" class="comp-desc">
-                    {{ company.desc }}
+                    {{ company.desc | markdownify }}
                 </div>
                 {% endfor %}
             </div>

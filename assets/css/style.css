@@ -97,7 +97,8 @@ a.page-link.resume:hover {
 }
 
 .section {
-  min-height: 30em;
+  min-height: 10em;
+  padding-top: 5em;
 }
 
 .section-header h2 {
@@ -170,7 +171,7 @@ a.page-link.resume:hover {
 }
 
 /* Education */
-.uni-desc {
+.uni-desc { 
   font-size: 1.3rem;
   color: #5476FF;
 }
@@ -297,7 +298,7 @@ table td { border: 1px solid #586e75; }
   display: block; padding: 7.5px; border: 1px solid  #3d518c;
 }
 .my_social li a:hover {
-  border-color: #abd2fa;
+  border-color: #5476FF;
 }
 
 .footer-col-wrapper, .social-links { font-size: 0.9375em; color: #abd2fa; }

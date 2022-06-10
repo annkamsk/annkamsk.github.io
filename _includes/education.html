@@ -8,8 +8,9 @@
             <p class="uni-dates">{{ uni.year }}</p>
         </div> 
         <div id="uni-desc-{{ uni.name }}" class="section-column-2">
-            <p class="uni-desc">{{ uni. desc }}</p>
-            <p class="uni-name">{{ uni.name }}</p>
+            <div class="uni-desc">{{ uni.major }}</div>
+            <h3>{{ uni.name }}</h3>
+            <p>{{ uni.desc | markdownify }}</p>
         </div>
     </div>
     {% endfor %}
